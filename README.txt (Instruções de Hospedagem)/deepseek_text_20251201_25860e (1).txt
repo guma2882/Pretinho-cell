@@ -1,0 +1,73 @@
+===================================================
+INSTRUÇÕES PARA HOSPEDAR O SITE PRETINHO CÉU
+===================================================
+
+1. PREPARAÇÃO DOS ARQUIVOS
+   - Todos os arquivos estão organizados na seguinte estrutura:
+     /index.html
+     /produtos.html
+     /css/style.css
+     /js/main.js
+     /js/produtos.js
+     /img/ (pasta para imagens)
+
+2. SUBSTITUIR AS IMAGENS
+   - As imagens atuais são placeholders.
+   - Coloque suas próprias imagens na pasta /img/
+   - Atualize os caminhos das imagens no HTML e CSS conforme necessário
+
+3. PERSONALIZAÇÃO
+   - Edite o arquivo index.html para atualizar informações da loja
+   - Atualize os produtos no arquivo js/produtos.js
+   - Personalize cores no arquivo css/style.css (variáveis no topo)
+
+4. HOSPEDAGEM NO GITHUB PAGES (GRATUITO)
+   --------------------------------
+   a) Crie uma conta no GitHub (github.com)
+   b) Crie um novo repositório chamado "pretinho-ceu"
+   c) Faça upload de todos os arquivos para o repositório
+   d) Vá em Settings > Pages
+   e) Em "Source", selecione a branch "main" e pasta "/ (root)"
+   f) Clique em Save
+   g) Seu site estará disponível em: https://seusuario.github.io/pretinho-ceu
+
+5. HOSPEDAGEM NO NETLIFY (GRATUITO E FÁCIL)
+   ---------------------------------------
+   a) Acesse netlify.com e crie uma conta
+   b) Clique em "Add new site" > "Deploy manually"
+   c) Arraste a pasta com todos os arquivos do site
+   d) Netlify fará o deploy automaticamente
+   e) Você pode conectar seu domínio personalizado nas configurações
+
+6. HOSPEDAGEM NO VERCEL (GRATUITO)
+   ------------------------------
+   a) Acesse vercel.com e crie uma conta
+   b) Clique em "Add New" > "Project"
+   c) Importe do GitHub ou arraste os arquivos
+   d) Clique em "Deploy"
+   e) Seu site estará disponível imediatamente
+
+7. CONECTAR DOMÍNIO PERSONALIZADO (OPCIONAL)
+   - Compre um domínio em registradores como Registro.br, GoDaddy, etc.
+   - Nas configurações da sua hospedagem (Netlify/Vercel), adicione o domínio
+   - Configure os DNS apontando para os servidores da plataforma
+
+8. INTEGRAÇÃO COM WHATSAPP
+   - O botão "Comprar pelo WhatsApp" já está configurado com seu número
+   - Certifique-se de que o WhatsApp Business está ativo neste número
+   - Teste o botão para garantir que está funcionando corretamente
+
+9. INTEGRAÇÃO COM TIKTOK SHOP
+   - Para integrar com TikTok Shop, você precisará:
+     a) Criar uma conta no TikTok Shop
+     b) Obter o código de integração
+     c) Adicionar o código no rodapé do site (antes do </body>)
+   - Consulte a documentação do TikTok Shop para instruções detalhadas
+
+10. MANUTENÇÃO
+    - Atualize regularmente os produtos no arquivo js/produtos.js
+    - Mantenha as informações de contato atualizadas
+    - Faça backup regular dos arquivos
+
+Dúvidas ou problemas, entre em contato com o desenvolvedor.
+===================================================
